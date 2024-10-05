@@ -1,6 +1,5 @@
 package org.automation.tests.para.para_version_1;
 
-import com.browserstack.local.Local;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.automation.pages.para_pages.para_version_1.Para_HomePage;
@@ -10,18 +9,12 @@ import org.automation.utilities.EnvConfigFileReader;
 import org.automation.utilities.HelperClass;
 import org.automation.utilities.ScenarioContext;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.HashMap;
 
 public class Para_Tests {
     private static final Logger logger = LogManager.getLogger(Para_Tests.class);
