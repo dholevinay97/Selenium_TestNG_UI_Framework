@@ -3,6 +3,8 @@ package org.automation.utilities;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -27,14 +29,17 @@ public class HelperClass {
             switch (browser.toLowerCase()) {
                 case "chrome":
                     ChromeOptions chromeOptions = getChromeOptions(browserConfigFileReader);
+                    WebDriverManager.chromedriver().setup();
                     tlDriver.set(new ChromeDriver(chromeOptions));
                     break;
                 case "firefox":
                     FirefoxOptions firefoxOptions = getFirefoxOptions(browserConfigFileReader);
+                    WebDriverManager.firefoxdriver().setup();
                     tlDriver.set(new FirefoxDriver(firefoxOptions));
                     break;
                 case "edge":
                     EdgeOptions edgeOptions = getEdgeOptions(browserConfigFileReader);
+                    WebDriverManager.edgedriver().setup();
                     tlDriver.set(new EdgeDriver(edgeOptions));
                     break;
                 default:
