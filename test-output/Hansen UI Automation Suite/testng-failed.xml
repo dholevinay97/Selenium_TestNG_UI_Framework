@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Hansen UI Automation Suite]">
+  <listeners>
+    <listener class-name="org.automation.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="UI_Automation_Test(failed)">
+    <classes>
+      <class name="org.automation.tests.para.para_version_1.Para_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="checkOrdersPage"/>
+          <include name="setupExtentReport"/>
+        </methods>
+      </class> <!-- org.automation.tests.para.para_version_1.Para_Tests -->
+    </classes>
+  </test> <!-- UI_Automation_Test(failed) -->
+</suite> <!-- Failed suite [Hansen UI Automation Suite] -->

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Logged In successfully]]>
+    </line>
+    <line>
+      <![CDATA[Landed on Para Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Landed on Register user page]]>
+    </line>
+    <line>
+      <![CDATA[Verified Contact logout functionality]]>
+    </line>
+    <line>
+      <![CDATA[Entered all the user information and clicked on register]]>
+    </line>
+    <line>
+      <![CDATA[Logged out successfully !!]]>
+    </line>
+    <line>
+      <![CDATA[Landed on Para Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Entered username]]>
+    </line>
+    <line>
+      <![CDATA[Entered password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Logged In successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verified Para login functionality]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout button]]>
+    </line>
+    <line>
+      <![CDATA[Landed on login page]]>
+    </line>
+    <line>
+      <![CDATA[Verified Para logout functionality]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-05T17:57:02 IST" name="My UI Automation Suite" finished-at="2024-10-05T17:57:12 IST" duration-ms="9803">
+    <groups>
+      <group name="PARA_Test_Cases">
+        <method signature="Para_Tests.registerUser()[pri:-1, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" name="registerUser" class="org.automation.tests.para.para_version_1.Para_Tests"/>
+        <method signature="Para_Tests.checkParaUrl()[pri:0, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" name="checkParaUrl" class="org.automation.tests.para.para_version_1.Para_Tests"/>
+        <method signature="Para_Tests.paraLoginTest()[pri:1, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" name="paraLoginTest" class="org.automation.tests.para.para_version_1.Para_Tests"/>
+        <method signature="Para_Tests.checkLogout()[pri:2, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" name="checkLogout" class="org.automation.tests.para.para_version_1.Para_Tests"/>
+      </group> <!-- PARA_Test_Cases -->
+      <group name="Contact_Test_Cases">
+        <method signature="Contact_Tests.checkContactUrl()[pri:0, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" name="checkContactUrl" class="org.automation.tests.contact.contact_version_1.Contact_Tests"/>
+        <method signature="Contact_Tests.contactLoginTest()[pri:1, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" name="contactLoginTest" class="org.automation.tests.contact.contact_version_1.Contact_Tests"/>
+        <method signature="Contact_Tests.checkLogout()[pri:2, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" name="checkLogout" class="org.automation.tests.contact.contact_version_1.Contact_Tests"/>
+      </group> <!-- Contact_Test_Cases -->
+    </groups>
+    <test started-at="2024-10-05T17:57:02 IST" name="Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd" finished-at="2024-10-05T17:57:12 IST" duration-ms="9803">
+      <class name="org.automation.tests.contact.contact_version_1.Contact_Tests">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:02 IST" name="setupExtentReport" finished-at="2024-10-05T17:57:02 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:02 IST" name="setupTest" finished-at="2024-10-05T17:57:05 IST" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="checkContactUrl()[pri:0, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:05 IST" name="checkContactUrl" description="Verify if Contact application is up and running" finished-at="2024-10-05T17:57:06 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContactUrl -->
+        <test-method signature="contactLoginTest()[pri:1, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:06 IST" name="contactLoginTest" description="Verify if Contact user is able to login" finished-at="2024-10-05T17:57:06 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged In successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactLoginTest -->
+        <test-method signature="checkLogout()[pri:2, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:06 IST" name="checkLogout" description="Verify Contact logout functionality" finished-at="2024-10-05T17:57:08 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified Contact logout functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.tests.contact.contact_version_1.Contact_Tests@5fa05212]" started-at="2024-10-05T17:57:08 IST" name="tearDown" finished-at="2024-10-05T17:57:08 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.tests.contact.contact_version_1.Contact_Tests -->
+      <class name="org.automation.tests.para.para_version_1.Para_Tests">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:02 IST" name="setupExtentReport" finished-at="2024-10-05T17:57:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:02 IST" name="setupTest" finished-at="2024-10-05T17:57:07 IST" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="registerUser()[pri:-1, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:07 IST" name="registerUser" description="Verify to register new user in Para Application" finished-at="2024-10-05T17:57:10 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Landed on Para Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Landed on Register user page]]>
+            </line>
+            <line>
+              <![CDATA[Entered all the user information and clicked on register]]>
+            </line>
+            <line>
+              <![CDATA[Logged out successfully !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="checkParaUrl()[pri:0, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:10 IST" name="checkParaUrl" description="Verify if Para application is up and running" finished-at="2024-10-05T17:57:11 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Landed on Para Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Entered username]]>
+            </line>
+            <line>
+              <![CDATA[Entered password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkParaUrl -->
+        <test-method signature="paraLoginTest()[pri:1, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:11 IST" name="paraLoginTest" description="Verify if Para user is able to login" finished-at="2024-10-05T17:57:11 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged In successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verified Para login functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- paraLoginTest -->
+        <test-method signature="checkLogout()[pri:2, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:11 IST" name="checkLogout" description="Verify Para logout functionality" finished-at="2024-10-05T17:57:12 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Logout button]]>
+            </line>
+            <line>
+              <![CDATA[Landed on login page]]>
+            </line>
+            <line>
+              <![CDATA[Verified Para logout functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.tests.para.para_version_1.Para_Tests@7e053511]" started-at="2024-10-05T17:57:12 IST" name="tearDown" finished-at="2024-10-05T17:57:12 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.tests.para.para_version_1.Para_Tests -->
+    </test> <!-- Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd -->
+  </suite> <!-- My UI Automation Suite -->
+</testng-results>

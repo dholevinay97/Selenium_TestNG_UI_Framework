@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged In successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Explore Button]]>
+    </line>
+    <line>
+      <![CDATA[Explore Tab Verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Portfolio Button]]>
+    </line>
+    <line>
+      <![CDATA[Portfolio Tab Verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Recent Portfolio Item]]>
+    </line>
+    <line>
+      <![CDATA[Verified Portfolio Item Name on Recent Portfolio Item]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Summary Button on Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Tree Structure Button on Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Details Button on Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Information Button on Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Configuration Button]]>
+    </line>
+    <line>
+      <![CDATA[Configuaration Tab Verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on History Button]]>
+    </line>
+    <line>
+      <![CDATA[History Tab Verified Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-18T17:25:39 IST" name="Suite" finished-at="2024-07-18T17:26:06 IST" duration-ms="27026">
+    <groups>
+      <group name="PI Test Cases">
+        <method signature="PI_Tests.loginTest()[pri:1, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" name="loginTest" class="org.automation.tests.pi.pi_version_4_x.PI_Tests"/>
+        <method signature="PI_Tests.explorePageVerification()[pri:2, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" name="explorePageVerification" class="org.automation.tests.pi.pi_version_4_x.PI_Tests"/>
+        <method signature="PI_Tests.portfolioPageVerification()[pri:3, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" name="portfolioPageVerification" class="org.automation.tests.pi.pi_version_4_x.PI_Tests"/>
+        <method signature="PI_Tests.configurationPageVerification()[pri:4, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" name="configurationPageVerification" class="org.automation.tests.pi.pi_version_4_x.PI_Tests"/>
+        <method signature="PI_Tests.historyPageVerification()[pri:5, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" name="historyPageVerification" class="org.automation.tests.pi.pi_version_4_x.PI_Tests"/>
+      </group> <!-- PI Test Cases -->
+    </groups>
+    <test started-at="2024-07-18T17:25:39 IST" name="Test" finished-at="2024-07-18T17:26:06 IST" duration-ms="27026">
+      <class name="org.automation.tests.pi.pi_version_4_x.PI_Tests">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:25:39 IST" name="setupExtentReport" finished-at="2024-07-18T17:25:39 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:25:39 IST" name="setupTest" finished-at="2024-07-18T17:25:52 IST" duration-ms="12571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginTest()[pri:1, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:25:52 IST" name="loginTest" description="Checking PI Login Functionality" finished-at="2024-07-18T17:25:52 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged In successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="explorePageVerification()[pri:2, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:25:52 IST" name="explorePageVerification" description="Checking Explore Page Functionality" finished-at="2024-07-18T17:25:55 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Explore Button]]>
+            </line>
+            <line>
+              <![CDATA[Explore Tab Verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- explorePageVerification -->
+        <test-method signature="portfolioPageVerification()[pri:3, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:25:55 IST" name="portfolioPageVerification" description="Checking Portfolio Page Functinality" finished-at="2024-07-18T17:26:00 IST" duration-ms="4549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Portfolio Button]]>
+            </line>
+            <line>
+              <![CDATA[Portfolio Tab Verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Recent Portfolio Item]]>
+            </line>
+            <line>
+              <![CDATA[Verified Portfolio Item Name on Recent Portfolio Item]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Summary Button on Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Tree Structure Button on Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Details Button on Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Information Button on Portfolio Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- portfolioPageVerification -->
+        <test-method signature="configurationPageVerification()[pri:4, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:26:00 IST" name="configurationPageVerification" description="Checking Configuration Page Functionality" finished-at="2024-07-18T17:26:03 IST" duration-ms="3101" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Configuration Button]]>
+            </line>
+            <line>
+              <![CDATA[Configuaration Tab Verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configurationPageVerification -->
+        <test-method signature="historyPageVerification()[pri:5, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:26:03 IST" name="historyPageVerification" description="Checking History Page Functionality" finished-at="2024-07-18T17:26:06 IST" duration-ms="3115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on History Button]]>
+            </line>
+            <line>
+              <![CDATA[History Tab Verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- historyPageVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.tests.pi.pi_version_4_x.PI_Tests@791f145a]" started-at="2024-07-18T17:26:06 IST" name="tearDown" finished-at="2024-07-18T17:26:06 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.tests.pi.pi_version_4_x.PI_Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

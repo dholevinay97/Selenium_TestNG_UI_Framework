@@ -1,0 +1,515 @@
+12:26:27.758 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+12:26:27.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:27.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:27.774 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+12:26:27.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:27.774 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+12:26:27.774 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+12:26:27.915 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+12:26:27.931 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:28.103 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:28.119 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+12:26:28.119 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+12:26:28.119 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+12:26:34.787 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+12:26:34.798 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+12:26:34.873 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+12:26:35.131 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+12:26:35.279 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+12:26:35.384 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+12:26:35.402 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+12:26:36.194 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+12:26:36.194 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+12:26:37.059 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+12:26:37.132 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+12:26:37.252 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+12:26:37.328 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+12:26:37.459 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+12:26:37.578 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+12:26:38.150 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+12:26:38.152 [TestNG-test-Default XmlTest name 9c7b4481-cadd-4911-8e92-e71aa61254fa-2] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+13:16:07.140 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+13:16:07.156 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.156 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.156 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+13:16:07.156 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.156 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+13:16:07.156 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+13:16:07.271 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+13:16:07.271 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.376 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.376 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:16:07.384 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+13:16:07.384 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+13:16:10.254 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+13:16:10.263 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+13:16:10.328 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+13:16:10.414 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+13:16:10.480 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+13:16:10.552 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+13:16:10.563 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+13:16:11.304 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+13:16:11.307 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+13:16:12.135 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+13:16:12.199 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+13:16:12.571 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+13:16:12.698 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+13:16:12.765 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+13:16:13.806 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+13:16:14.618 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+13:16:14.619 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+13:16:14.645 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+13:16:14.695 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+13:16:14.782 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+13:16:17.068 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+13:16:17.068 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+13:16:17.131 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+13:16:17.131 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+13:16:17.917 [TestNG-test-Default XmlTest name bdfec645-cf96-4c7a-ad58-f1b5ab9ae688-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+13:20:40.321 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+13:20:40.337 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.337 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.337 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+13:20:40.337 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.337 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+13:20:40.337 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+13:20:40.432 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+13:20:40.448 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.579 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.579 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+13:20:40.582 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+13:20:40.582 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+13:20:43.478 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+13:20:43.488 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+13:20:43.555 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+13:20:43.654 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+13:20:43.718 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+13:20:43.786 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+13:20:43.795 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+13:20:44.552 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+13:20:44.554 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+13:20:45.391 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+13:20:45.462 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+13:20:45.882 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+13:20:46.057 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+13:20:46.071 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+13:20:47.747 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+13:20:48.604 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+13:20:48.604 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+13:20:48.637 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+13:20:48.704 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+13:20:48.753 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+13:20:49.768 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+13:20:49.770 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+13:20:49.830 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+13:20:49.832 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+13:20:50.608 [TestNG-test-Default XmlTest name aa55457e-d696-4113-b919-456e6591037d-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:24:17.742 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:24:17.742 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:24:17.742 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:24:17.742 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:24:17.742 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:24:17.846 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:24:17.852 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:24:17.980 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:24:17.980 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:24:21.246 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:24:21.265 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:24:21.330 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:24:21.495 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:24:21.579 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:24:21.648 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:24:21.649 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:24:22.384 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:24:22.386 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:24:23.660 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:24:23.931 [TestNG-test-Default XmlTest name cd761000-e2f9-4206-8a92-aa13941d4ff4-1] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:27:34.898 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:27:34.898 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:34.898 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:34.898 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:27:34.898 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:34.898 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:27:34.898 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:27:34.999 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:27:34.999 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:35.131 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:35.131 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:27:35.133 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:27:35.133 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:27:37.873 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:27:37.881 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:27:37.943 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:27:38.092 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:27:38.176 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:27:38.228 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:27:38.239 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:27:38.798 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:27:38.866 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:27:38.943 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:27:38.945 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:27:39.723 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:27:40.136 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:27:40.303 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:27:41.013 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:27:41.986 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:27:41.987 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:27:42.020 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:27:42.132 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:27:42.208 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:27:43.285 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:27:43.286 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:27:43.351 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:27:43.352 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:27:44.115 [TestNG-test-Default XmlTest name 9a16ab62-3d5b-4521-9ab0-c05f67dcb3ff-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:35:28.501 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:35:28.501 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.501 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.501 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:35:28.501 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.501 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:35:28.501 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:35:28.610 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:35:28.626 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.768 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.768 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:35:28.774 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:35:28.774 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:35:31.635 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:35:31.645 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:35:31.705 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:35:31.847 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:35:31.925 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:35:31.979 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:35:31.979 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:35:32.722 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:35:32.723 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:35:33.662 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:35:33.733 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:35:34.006 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:35:34.122 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:35:34.277 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:35:35.582 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:35:36.381 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:35:36.381 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:35:36.411 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:35:36.512 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:35:36.586 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:35:37.638 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:35:37.638 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:35:37.695 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:35:37.697 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:35:38.499 [TestNG-test-Default XmlTest name 5ee06221-aa28-4c17-8cee-ef4d8887214b-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:41:29.944 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:41:29.960 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:29.960 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:29.960 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:41:29.960 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:29.960 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:41:29.960 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:41:30.070 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:41:30.070 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:30.212 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:30.212 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:41:30.212 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:41:32.599 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:41:32.601 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:41:32.667 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:41:32.816 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:41:32.894 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:41:32.947 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:41:32.950 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:41:33.666 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:41:33.667 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:41:34.905 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:41:35.039 [TestNG-test-Default XmlTest name eca4d28c-6d9f-4c0f-a2f6-6e86bd8996b4-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:42:51.774 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:42:51.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:51.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:51.774 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:42:51.774 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:51.774 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:42:51.774 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:42:51.869 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:42:51.884 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:52.022 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:52.022 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:42:52.022 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:42:54.484 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:42:54.486 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:42:54.559 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:42:54.708 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:42:54.790 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:42:54.868 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:42:54.868 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:42:55.581 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:42:55.581 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:42:56.865 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:42:56.990 [TestNG-test-Default XmlTest name 109467b0-b886-4674-ae16-a1e173430407-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:45:29.043 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:45:29.043 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.043 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.043 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:45:29.043 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.043 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:45:29.043 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:45:29.137 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:45:29.153 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.247 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.247 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:29.247 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:45:38.164 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:45:38.177 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:45:38.255 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:45:38.431 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:45:38.543 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:45:38.625 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:45:38.637 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:45:39.426 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:45:39.426 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:45:40.693 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:45:41.595 [TestNG-test-Default XmlTest name 96368484-a044-4dec-a2b0-84585b1bfd93-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:45:52.751 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:45:52.751 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.751 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.751 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:45:52.751 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.751 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:45:52.751 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:45:52.847 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:45:52.847 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.957 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.957 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:45:52.963 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:45:55.702 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:45:55.714 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:45:55.776 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:45:56.037 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:45:56.220 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:45:56.310 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:45:56.310 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:45:57.044 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:45:57.045 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:45:58.296 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:45:58.500 [TestNG-test-Default XmlTest name aa3d84cf-7e4f-4000-bb6e-8158c2d1eaf2-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:51:37.674 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:51:37.674 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.674 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.674 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:51:37.674 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.674 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:51:37.674 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:51:37.769 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:51:37.769 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.894 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.894 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:51:37.894 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:51:40.846 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:51:40.848 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:51:40.933 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:51:41.211 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:51:41.335 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:51:41.418 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:51:41.418 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:51:42.149 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:51:42.149 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:51:43.417 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:51:43.550 [TestNG-test-Default XmlTest name c3c7d664-6fac-430d-8387-1e03a00adeed-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:52:29.315 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:52:29.315 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.315 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.315 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:52:29.315 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.315 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:52:29.315 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:52:29.409 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:52:29.409 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.525 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.525 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:29.525 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:52:32.391 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:52:32.404 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:52:32.499 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:52:32.828 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:52:32.936 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:52:33.031 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:52:33.040 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:52:33.714 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:52:33.715 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:52:34.925 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:52:35.083 [TestNG-test-Default XmlTest name b13bf363-99ec-4118-8418-c0520c0e6447-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:52:49.772 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:52:49.772 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.772 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.772 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:52:49.772 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.772 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:52:49.772 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:52:49.873 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:52:49.876 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.982 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.982 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:52:49.983 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:52:52.823 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:52:52.838 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:52:52.922 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:52:53.216 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:52:53.437 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:52:53.556 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:52:53.556 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:52:54.318 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:52:54.320 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:52:55.581 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:52:55.731 [TestNG-test-Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:54:08.554 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:54:08.563 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.563 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.563 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:54:08.563 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.563 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:54:08.563 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:54:08.657 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:54:08.657 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.767 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.767 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:08.769 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:54:08.769 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:54:11.485 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:54:11.493 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:54:11.546 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:54:11.630 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:54:11.697 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:54:11.761 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:54:11.770 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:54:12.484 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:54:12.486 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:54:13.683 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:54:13.845 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:54:14.003 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:54:14.064 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:54:15.329 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:54:17.121 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:54:18.455 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:54:18.461 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:54:18.478 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:54:18.606 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:54:18.683 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:54:19.713 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:54:19.714 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:54:19.768 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:54:19.769 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:54:20.506 [TestNG-test-Default XmlTest name 5a4323a4-c345-4a51-9832-21cf27585731-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:54:48.464 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:54:48.464 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.464 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.464 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:54:48.464 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.464 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:54:48.464 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:54:48.605 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:54:48.605 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.729 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.729 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:54:48.731 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:54:48.732 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:54:51.681 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:54:51.690 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:54:51.748 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:54:51.835 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:54:51.905 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:54:51.971 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:54:51.980 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:54:52.717 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:54:52.718 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:54:53.976 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:54:54.079 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:54:54.816 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:54:54.883 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:54:55.521 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:54:57.148 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:54:58.494 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:54:58.495 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:54:58.534 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:54:58.663 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:54:58.741 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:54:59.789 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:54:59.789 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:54:59.846 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:54:59.847 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:55:00.657 [TestNG-test-Default XmlTest name 1d89a5e5-f2b4-46a9-95ff-db294d831620-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:56:04.460 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:56:04.476 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.476 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.476 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:56:04.476 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.476 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:56:04.476 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:56:04.570 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:56:04.570 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.686 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.686 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:56:04.687 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:56:04.687 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:56:07.463 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:56:07.474 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:56:07.526 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:56:07.611 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:56:07.675 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:56:07.743 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:56:07.752 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:56:08.493 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:56:08.495 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:56:09.500 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:56:09.559 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:56:09.742 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:56:09.860 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:56:10.145 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:56:11.316 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:56:12.157 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:56:12.159 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:56:12.194 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:56:12.246 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:56:12.322 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:56:13.854 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:56:13.862 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:56:13.904 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:56:13.905 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:56:14.642 [TestNG-test-Default XmlTest name 3d61f852-821a-4acd-98ac-4df715a2c602-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality
+17:57:02.723 [main] INFO  org.automation.utilities.TestNGGenerator - Altering suite configuration based on environment settings.
+17:57:02.739 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.739 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.739 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.contact.contact_version_1.Contact_Tests with methods [org.testng.xml.XmlInclude@502563d8, org.testng.xml.XmlInclude@934582dc, org.testng.xml.XmlInclude@21a11833].
+17:57:02.739 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.739 [main] INFO  org.automation.utilities.TestNGGenerator - Added class org.automation.tests.para.para_version_1.Para_Tests with methods [org.testng.xml.XmlInclude@9a449c8f, org.testng.xml.XmlInclude@cd246ec8, org.testng.xml.XmlInclude@3253fb1c, org.testng.xml.XmlInclude@21a11833].
+17:57:02.739 [main] INFO  org.automation.utilities.TestNGGenerator - Suite configuration altered successfully.
+17:57:02.833 [main] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Extent report setup completed.
+17:57:02.833 [main] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.945 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.945 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.utilities.EnvConfigFileReader - Environment configuration loaded successfully from src/test/resources/env_config.properties
+17:57:02.947 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:57:02.947 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.utilities.BrowserConfigFileReader - Browser configuration loaded successfully from src/test/resources/browser_config.properties
+17:57:05.705 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Test setup completed.
+17:57:05.719 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact application is up and running
+17:57:05.774 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Landed on Contact Login Page
+17:57:05.919 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered username
+17:57:06.004 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Entered password
+17:57:06.072 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Clicked on Submit button
+17:57:06.083 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify if Contact user is able to login
+17:57:06.871 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Logged In successfully
+17:57:06.875 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - [Test Case] Verify Contact logout functionality
+17:57:07.496 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify to register new user in Para Application
+17:57:07.555 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:57:08.147 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Register user page
+17:57:08.200 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Verified Contact logout functionality
+17:57:08.323 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-2] INFO  org.automation.tests.contact.contact_version_1.Contact_Tests - Driver closed successfully.
+17:57:09.552 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered all the user information and clicked on register
+17:57:10.324 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged out successfully !!
+17:57:10.324 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para application is up and running
+17:57:10.365 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Landed on Para Login Page
+17:57:10.485 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered username
+17:57:10.561 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Entered password
+17:57:11.590 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Click on Submit button
+17:57:11.592 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify if Para user is able to login
+17:57:11.649 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Logged In successfully
+17:57:11.651 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - [Test Case] Verify Para logout functionality
+17:57:12.440 [TestNG-test-Default XmlTest name e933f2c1-0455-4f4b-becf-c88d20465ebd-1] INFO  org.automation.tests.para.para_version_1.Para_Tests - Verified Para logout functionality

@@ -1,0 +1,11 @@
+org\automation\pages\contact_pages\contact_version_2\Contact_LoginPage.class
+org\automation\pages\para_pages\para_version_1\Para_LoginPage.class
+org\automation\pages\contact_pages\contact_version_1\Contact_LoginPage.class
+org\automation\pages\para_pages\para_version_1\Para_HomePage.class
+org\automation\constants\Suite_Constants.class
+org\automation\pages\para_pages\para_version_1\Para_RegisterPage.class
+org\automation\pages\contact_pages\contact_version_1\Contact_HomePage.class
+org\automation\pages\para_pages\para_version_2\Para_LoginPage.class
+org\automation\pages\base_page\BasePage.class
+org\automation\pages\para_pages\para_version_2\Para_HomePage.class
+org\automation\pages\contact_pages\contact_version_2\Contact_HomePage.class

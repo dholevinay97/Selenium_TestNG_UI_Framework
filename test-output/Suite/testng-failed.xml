@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.automation.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.automation.tests.pi.pi_version_4_x.PI_Tests">
+        <methods>
+          <include name="setupTest"/>
+          <include name="tearDown"/>
+          <include name="portfolioPageVerification"/>
+          <include name="explorePageVerification"/>
+        </methods>
+      </class> <!-- org.automation.tests.pi.pi_version_4_x.PI_Tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

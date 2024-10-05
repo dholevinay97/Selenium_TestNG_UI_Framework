@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My UI Automation Suite" thread-count="2" parallel="classes">
+    <listeners>
+        <listener class-name="org.automation.utilities.ExtentReportManager"/>
+        <listener class-name="org.automation.utilities.TestNGGenerator"/>
+    </listeners>
+</suite> <!-- Suite -->
+

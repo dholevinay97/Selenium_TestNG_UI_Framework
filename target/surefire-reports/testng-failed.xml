@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [My UI Automation Suite]" verbose="0">
+  <listeners>
+    <listener class-name="org.automation.utilities.ExtentReportManager"/>
+    <listener class-name="org.automation.utilities.TestNGGenerator"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3(failed)" verbose="0">
+    <classes>
+      <class name="org.automation.tests.para.para_version_1.Para_Tests">
+        <methods>
+          <include name="checkParaUrl"/>
+          <include name="checkLogout"/>
+          <include name="setupExtentReport"/>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="paraLoginTest"/>
+          <include name="registerUser"/>
+        </methods>
+      </class> <!-- org.automation.tests.para.para_version_1.Para_Tests -->
+    </classes>
+  </test> <!-- Default XmlTest name 95389202-f75e-408b-a19e-f2026fb83dd3(failed) -->
+</suite> <!-- Failed suite [My UI Automation Suite] -->

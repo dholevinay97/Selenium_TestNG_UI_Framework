@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 18 17:09:33 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51603 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkOrdersPage()'><b>checkOrdersPage</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify Orders page is clickable and accessible<br/>
+<a href="#Output-203924386" onClick='toggleBox("Output-203924386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203924386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203924386">
+Clicked on Orders button and successfully land on Orders Page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;1234-tab-4&quot; href=&quot;#&quot; role=&quot;tab&quot; data-rb-event-key=&quot;4&quot; aria-controls=&quot;1234-tabpane-4&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot; aria-selected=&quot;false&quot; class=&quot;nav-item nav-link disabled&quot;&gt;...&lt;/a&gt; is not clickable at point (191, 489). Other element would receive the click: &lt;nav class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;...&lt;/nav&gt;
+  (Session info: chrome=126.0.6478.127)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0712377beaf7d7abe946332e60259d2d, clickElement {id=f.FDFF1D144955F871E15F69A641CB0F2B.d.B4ADC2AF2F66A3D8887B0EFC9EB07077.e.55}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49999/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0712377beaf7d7abe946332e60259d2d)] -&gt; xpath: //a[@id=&apos;1234-tab-4&apos;]]
+Session ID: 0712377beaf7d7abe946332e60259d2d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at org.automation.pages.para_pages.para_version_1.PROV_OrdersPage.verifyOrderDetailsPage(PROV_OrdersPage.java:62)
+	at org.automation.tests.para.para_version_1.Para_Tests.checkOrdersPage(PROV_Tests.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace203924386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace203924386'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;1234-tab-4&quot; href=&quot;#&quot; role=&quot;tab&quot; data-rb-event-key=&quot;4&quot; aria-controls=&quot;1234-tabpane-4&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot; aria-selected=&quot;false&quot; class=&quot;nav-item nav-link disabled&quot;&gt;...&lt;/a&gt; is not clickable at point (191, 489). Other element would receive the click: &lt;nav class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;...&lt;/nav&gt;
+  (Session info: chrome=126.0.6478.127)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0712377beaf7d7abe946332e60259d2d, clickElement {id=f.FDFF1D144955F871E15F69A641CB0F2B.d.B4ADC2AF2F66A3D8887B0EFC9EB07077.e.55}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49999/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0712377beaf7d7abe946332e60259d2d)] -&gt; xpath: //a[@id=&apos;1234-tab-4&apos;]]
+Session ID: 0712377beaf7d7abe946332e60259d2d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at org.automation.pages.para_pages.para_version_1.PROV_OrdersPage.verifyOrderDetailsPage(PROV_OrdersPage.java:62)
+	at org.automation.tests.para.para_version_1.Para_Tests.checkOrdersPage(PROV_Tests.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkLogout()'><b>checkLogout</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify logout functionality is working fine<br/>
+<a href="#Output-1360312263" onClick='toggleBox("Output-1360312263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1360312263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1360312263">
+Verified the logout functionality<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.loginTest()'><b>loginTest</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify if user is able to login<br/>
+<a href="#Output-1318313145" onClick='toggleBox("Output-1318313145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1318313145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1318313145">
+Logged In successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkManualTaskPage()'><b>checkManualTaskPage</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify Manual Task page is clickable and accessible<br/>
+<a href="#Output-1778257620" onClick='toggleBox("Output-1778257620", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778257620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778257620">
+Verified the Manual Task Page<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkProvUrl()'><b>checkProvUrl</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify if application is up and running<br/>
+<a href="#Output-687685057" onClick='toggleBox("Output-687685057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-687685057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687685057">
+Application is up and running<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkFalloutManagementPage()'><b>checkFalloutManagementPage</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify Fallout Management page is clickable and accessible<br/>
+<a href="#Output-1530638839" onClick='toggleBox("Output-1530638839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1530638839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1530638839">
+Verified all links on Fallout Management page<br/>
+Verified the Search Page on Fallout Management<br/>
+Verified the Batch Management Page on Fallout Management<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.checkHomePage()'><b>checkHomePage</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify Home page is clickable and accessible<br/>
+<a href="#Output-1848900782" onClick='toggleBox("Output-1848900782", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1848900782" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1848900782">
+Verified all links on Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+<tr>
+<td title='org.automation.tests.para.para_version_1.Para_Tests.homePageVerification()'><b>homePageVerification</b><br>Test class: org.automation.tests.para.para_version_1.Para_Tests<br>Test method: Verify if page is clickable and accessible<br/>
+<a href="#Output-2050291306" onClick='toggleBox("Output-2050291306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2050291306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2050291306">
+Verified the Prov Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.automation.tests.para.para_version_1.Para_Tests@3c77d488</td></tr>
+</table><p>
+</body>
+</html>

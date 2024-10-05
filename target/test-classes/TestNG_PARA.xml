@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My UI Automation Suite" thread-count="2" parallel="classes">
+    <listeners>
+        <listener class-name="org.automation.utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="UI_Automation_Test">
+        <classes>
+            <class name="org.automation.tests.para.para_version_1.Para_Tests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
